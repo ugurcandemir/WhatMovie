@@ -8,27 +8,15 @@ from sklearn.metrics import accuracy_score
 
 import pandas as pd
 
+import json
+
 # Get the data here.
 
 import json
 
 with open("movie.json"  , "r+") as f :
-    data = json.load(f)
+    movie_data = json.load(f)
+
+print(movie_data)
 
 
-# Opening JSON file
-# f = open('data.json')
-  
-# returns JSON object as 
-# a dictionary
-
-  
-# Iterating through the json
-# list
-# for i in data['emp_details']:
-    # print(i)
-  
-# Closing file
-# f.close()d
-
-# Fit the model.
