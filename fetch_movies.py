@@ -21,3 +21,5 @@ tvShow = db.TV()
 show = tvShow.search('Game of Thrones')
 show[0].name
 show[0].overview
+
+# Fıt the model.
