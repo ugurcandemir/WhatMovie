@@ -11,7 +11,7 @@ import json
 url = 'https://api.themoviedb.org/3/discover/movie'
 
 # We run a for loop here.
-for i in range(1 , 500) :
+for i in range(1 , 100) :
 
 
     print( i )
@@ -60,7 +60,7 @@ for file in movie_data_files:
 # Write the merged data to a new file
 output_file = "data/movie_discovery_data.json"
 with open(output_file, "w") as f:
-    json.dump(merged_data, f, indent=4)
+    json.dump(merged_data, f)
 
 # Delete the original "movie_data" files
 for file in movie_data_files:
