@@ -36,7 +36,7 @@ for i in range(1 , 100) :
     else:
         print("Error:", response.status_code)
 
-    with open(f"data/movie_data_{i}.json", "a") as f:
+    with open(f"data/movie_data_{i}.json", "a", encoding= "utf-8") as f:
         json.dump(new_data , f)
 
     
@@ -59,7 +59,7 @@ for file in movie_data_files:
 
 # Write the merged data to a new file
 output_file = "data/movie_discovery_data.json"
-with open(output_file, "w") as f:
+with open(output_file, "w" , "utf-8") as f:
     json.dump(merged_data, f)
 
 # Delete the original "movie_data" files

@@ -11,7 +11,7 @@ url = 'https://api.themoviedb.org/3/discover/movie'
 
 movie_data = []
 
-with open("data/movie_discovery_data.json" , "r") as f :
+with open("data/movie_discovery_data.json" , "r" , encoding= "utf-8") as f :
     movie_discovrey_data = json.load(f)
 
 movie_ids = [each_movie["id"] for each_movie in movie_discovrey_data]
@@ -46,7 +46,7 @@ for each_movie_id in movie_ids[:500]:  # Adjust the range as needed
     
 
 
-with open(f"data/movie_info.json", "a") as f:
+with open(f"data/movie_info.json", "a" , encoding= "etf-8") as f:
     json.dump(movie_data , f )
 
     
