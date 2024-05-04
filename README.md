@@ -16,7 +16,7 @@ This project is a machine learning-based API built with Flask for estimating mov
 
  - Install necessary dependencies using pip install -r requirements.txt.
 
- - The data is already in the repo. However if you want to fetch more data you can run **data/movie_discovery.py** , **data/movie_info.py** and **data/flatten_movie_data.py** in that order , from the project directory. To fetch your own data you also have to create a **data/config.py** file to store your credentials like **api_key** and **api_access_token**.
+ - The data is already in the repo. However if you want to fetch more data you can run **data/movie_discovery.py** , **data/movie_info.py** and **data/flatten_movie_data.py** in that order , from the project directory. To fetch your own data you also have to create a **data/config.py** file to store your credentials like **api_key** and **api_access_token**. To obtain the credentials you can visit the [TMDB website](https://developer.themoviedb.org/)
 
 
 
