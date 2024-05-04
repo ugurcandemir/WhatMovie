@@ -24,7 +24,7 @@ This project is a machine learning-based API built with Flask for estimating mov
 python app/api.py
 ```
 
- - If API gets deployed locally **(e.g. , http://localhost:5000)** , you can send **POST** requests to **http://localhost:5000/about/predict** endpoint. To test it you can run the following command from the project directory. It uses the content of the file **test/test_input.json** and sends a **POST** request. You can also consult to **test/test_input.json** to see the accepted fields by the mode.
+ - If API gets deployed locally **(e.g. , http://localhost:5000)** , you can send **POST** requests to **http://localhost:5000/about/predict** endpoint. To test it you can run the following command from the project directory. It uses the content of the file **test/test_input.json** and sends a **POST** request. You can also consult to **test/test_input.json** to see the accepted fields by the model.
 
 ```py
 python test/test.py
