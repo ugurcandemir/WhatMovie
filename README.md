@@ -14,6 +14,8 @@ This project is a machine learning-based API built with Flask for estimating mov
 
 Usage:
 
+ - The data is already in the repo. However if you want to fetch more data you can run **data/movie_discovery.py** , **data/movie_info.py** and **data/flatten_movie_data.py** in that order , from the project directory. To fetch your own data you also have to create a **data/config.py** file to store your credentials like **api_key** and **api_access_token**.
+
 Send a POST request to the API endpoint with movie data.
 Receive predicted budget estimation as the response.
 How to Use:
